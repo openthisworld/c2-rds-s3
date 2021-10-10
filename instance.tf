@@ -13,6 +13,6 @@ resource "aws_instance" "linux-instance" {
   }
 
   depends_on = [
-    aws_db_instance.aws-rds,
+    aws_db_instance.itea-rds,
   ]
 }
